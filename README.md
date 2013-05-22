@@ -1,6 +1,8 @@
-# VeggieIpsum
+# Veggie Ipsum Gem 
 
-Nothing important here... go away!  :)
+Nothing important here go away!  :)
+- ...not a gem for actual use.
+- ...just for learning purposes.
 
 
 ## Installation
@@ -20,13 +22,6 @@ Or install it yourself as:
 ## Usage
 
 To eat some veggies do the following:
-    `eat = VeggieIpsum::Eat.new(3) # 3 says 'I want 3 paragraphs of veggie ipsum'`
-    `eat.them # returns the paragraphs as a string "<p>...</p><p>...</p><p>...</p>"`
 
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+      eat = VeggieIpsum::Eat.new(3) # => 3 says 'I want 3 paragraphs of veggie ipsum'
+      eat.them # => returns the paragraphs as a string "<p>broccoli...</p><p>green...</p><p>pepper...</p>"
