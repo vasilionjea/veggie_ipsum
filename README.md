@@ -4,7 +4,7 @@ Nothing important here, go away!  :)
 - ...not a gem for actual use (but is usable).
 - ...just for learning purposes.
 - ...directions below are for plain ruby files.
-- ...using bundler for gems.
+
 
 
 With Bundler
@@ -46,7 +46,7 @@ Without Bundler
 
 ### Installing in current Ruby system
 
-Go into your project's repo, clone the gem source, and cd into the gem's directory.
+Go into your project's repo, clone the gem source, and cd into the gem's directory (`gem install rake` if needed).
 
     git clone https://github.com/vasilionjea/veggie_ipsum.git
     cd veggie_ipsum/
