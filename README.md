@@ -20,8 +20,8 @@ Or install it yourself as:
 ## Usage
 
 To eat some veggies do the following:
-    eat = VeggieIpsum::Eat.new(3) # 3 says 'I want 3 paragraphs of veggie ipsum'
-    eat.them # returns the paragraphs as a string "<p>...</p><p>...</p><p>...</p>"
+    `eat = VeggieIpsum::Eat.new(3) # 3 says 'I want 3 paragraphs of veggie ipsum'`
+    `eat.them # returns the paragraphs as a string "<p>...</p><p>...</p><p>...</p>"`
 
 ## Contributing
 
